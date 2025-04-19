@@ -1,0 +1,45 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.video-box {
+  width: 320px;
+  height: 240px;
+  background-color: black;
+}
+
+.remote-videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.waiting-message {
+  margin-top: 10px;
+  color: orange;
+}
