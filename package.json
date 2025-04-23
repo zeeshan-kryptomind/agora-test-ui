@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@netless/appliance-plugin": "^1.1.16",
+    "@netless/fastboard-react": "^1.0.4",
     "@tailwindcss/vite": "^4.1.4",
-    "agora-rtc-sdk-ng": "^4.23.2",
+    "agora-rtc-sdk-ng": "^4.22.0",
+    "agora-rtm-sdk": "^2.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
